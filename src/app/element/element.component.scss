@@ -1,0 +1,26 @@
+:host{
+  ngx-flip{
+    height: 200px;
+    width: 200px;
+    cursor:pointer;
+    margin: 10px;
+    font-size: 36px;
+
+    .front{
+      background-color: lightgreen;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin: 10px;
+    }
+    .back{
+      background-color: lightblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin: 10px;
+    }
+  }
+}
